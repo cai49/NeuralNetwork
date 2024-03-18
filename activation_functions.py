@@ -19,5 +19,5 @@ class Sigmoid(Activation):
 class ReLU(Activation):
     def __init__(self):
         relu = lambda x: np.maximum(0, x)
-        relu_prime = lambda x: 1 if x > 0 else 0 if x < 0 else None
+        relu_prime = lambda x: 1 if x > 0 else 0
         super().__init__(relu, relu_prime)

@@ -18,15 +18,15 @@ Y = np.reshape(np.array([[0], [1], [1], [0]]), (4, 1, 1))
 neural_network = [
     Dense(2, 3),
     Tanh(),
-    Dense(3, 2),
+    Dense(3, 3),
     Tanh(),
-    Dense(2, 1),
+    Dense(3, 1),
     Tanh()
 ]
 
 # Training Parameters
-epochs = 10000
-learning_rate = 0.01
+epochs = 25000
+learning_rate = 0.025
 
 # Training
 train(neural_network, mse, mse_prime, X, Y, epochs, learning_rate, verbose=True)
