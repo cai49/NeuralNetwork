@@ -2,8 +2,7 @@
 In the following example, the XOR problem is solved using the designed libraries
 the Neural Network architecture has 2 input neurons, 1 hidden layer with 3 neurons, and 1 output neuron
 """
-import matplotlib.pyplot as plt, mpld3
-from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
 
 from activation_functions import *
 from dense import Dense

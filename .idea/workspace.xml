@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45819424-d396-48d2-8eef-53064246d28a" name="Changes" comment="- Uploaded to Github&#10;- Added layer.py">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dense.py" beforeDir="false" afterPath="$PROJECT_DIR$/dense.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="45819424-d396-48d2-8eef-53064246d28a" name="Changes" comment="- Minor Tweaks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.activation_functions.executor": "Run",
     "Python.main.executor": "Run",
     "Python.xor.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -111,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710740975327</updated>
-      <workItem from="1710740983797" duration="7896000" />
+      <workItem from="1710740983797" duration="8280000" />
     </task>
     <task id="LOCAL-00001" summary="Init Project">
       <option name="closed" value="true" />
@@ -137,7 +131,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710747394781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- Finished XOR Problem">
+      <option name="closed" value="true" />
+      <created>1710750125042</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710750125042</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Minor Tweaks">
+      <option name="closed" value="true" />
+      <created>1710750491672</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710750491672</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,10 +188,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init Project" />
     <MESSAGE value="- Uploaded to Github&#10;- Added layer.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Uploaded to Github&#10;- Added layer.py" />
+    <MESSAGE value="- Finished XOR Problem" />
+    <MESSAGE value="- Minor Tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Minor Tweaks" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NeuralNetwork$activation_functions.coverage" NAME="activation_functions Coverage Results" MODIFIED="1710750307138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NeuralNetwork$main.coverage" NAME="main Coverage Results" MODIFIED="1710749777914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NeuralNetwork$xor.coverage" NAME="xor Coverage Results" MODIFIED="1710750088281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NeuralNetwork$xor.coverage" NAME="xor Coverage Results" MODIFIED="1710750417961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
